@@ -3,5 +3,5 @@ export default function IndexPage() {
         <div>
             <p>Hello!</p>
         </div>
-    )
+    );
 }
