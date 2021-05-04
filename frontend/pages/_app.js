@@ -11,7 +11,6 @@ Router.events.on('routeChangeError', () => NProgress.done());
 import '../components/styles/nprogress.css';
 
 function MyApp({ Component, pageProps, apollo }) {
-    console.log(apollo);
     return (
         <ApolloProvider client={apollo}>
             <Page>
